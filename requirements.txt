@@ -1,0 +1,10 @@
+torch==1.7.0 # 1.5.0 was said in github
+torchvision==0.9.0
+numpy
+pillow
+opencv-python
+imgaug
+scipy
+tqdm
+pandas
+resnet
