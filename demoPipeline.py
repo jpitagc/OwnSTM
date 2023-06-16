@@ -146,7 +146,7 @@ def demo(model,Testloader,output_mask_path,output_viz_path):
         os.system('ffmpeg -framerate 10 -i {} {} -vcodec libx264 -crf 10  -pix_fmt yuv420p  -nostats -loglevel 0 -y'.format(frame_path, vid_path))
 
 
-def custom_load_single_image(self,video,f):
+def custom_load_single_image(video,f):
  
        
         mask_dir = os.path.join(video, 'masks')
