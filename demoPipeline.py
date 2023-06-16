@@ -239,12 +239,12 @@ if __name__ == "__main__":
     GPU = args.g
     #YEAR = args.y
     #SET = args.s
-    DATA_ROOT = args.D
+    #DATA_ROOT = args.D
     pth = args.p
 
     output_file_name = pth.rsplit("/")[-1].rsplit(".")[0]
-    video = args.output_path
-    output_viz_path = args.output_path
+    video = args.D
+    output_viz_path = args.D
     output_mask_path = os.path.join(video , output_file_name , 'masks')
     output_viz_path = os.path.join(output_viz_path, output_file_name, 'video')
 
