@@ -2,7 +2,6 @@ This is a new file.
 
 THis file contains changes 
 
-<<<<<<< HEAD
 This canges must be approved.
 
 
@@ -11,6 +10,3 @@ This change is not yet ready for deployment
 
 
 
-=======
-This canges must be approved.
->>>>>>> parent of dbcabda (TrialChunk>Commit)
